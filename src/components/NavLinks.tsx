@@ -9,7 +9,7 @@ const NavLinks = (props: any) => {
     { name: "Dropdown", link: "/" },
     { name: "About", link: "/about" },
     { name: "Porfolio", link: "/portfolio" },
-    { name: "Services", link: "/" },
+    { name: "Services", link: "/services" },
     { name: "Resume", link: "/" },
     { name: "Blog", link: "/" },
     { name: "Contact", link: "/" },
