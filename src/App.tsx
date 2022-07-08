@@ -5,6 +5,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import MyPortfolio from "./pages/MyPortfolio";
 import Services from "./pages/Services";
+import Resume from "./pages/Resume";
+import ReadOnMedium from "./pages/ReadOnMedium";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <About />
         <MyPortfolio />
         <Services />
+        <Resume />
+        <ReadOnMedium />
+        <Contact />
       </div>
     </React.Fragment>
     // <Routes>
