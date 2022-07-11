@@ -8,18 +8,22 @@ import Services from "./pages/Services";
 import Resume from "./pages/Resume";
 import ReadOnMedium from "./pages/ReadOnMedium";
 import Contact from "./pages/Contact";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
     <React.Fragment>
       <Home />
-      <div className="xl:max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <About />
         <MyPortfolio />
         <Services />
         <Resume />
         <ReadOnMedium />
         <Contact />
+      </div>
+      <div className=" bg-gray-100 mt-14">
+        <Footer />
       </div>
     </React.Fragment>
     // <Routes>
